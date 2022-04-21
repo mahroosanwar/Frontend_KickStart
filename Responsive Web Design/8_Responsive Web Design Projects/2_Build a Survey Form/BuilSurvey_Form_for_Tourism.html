@@ -1,0 +1,82 @@
+<div class="container">
+  <header class="header">
+    <h1 id="title">Fill form Where You want the Escapes</h1>
+    <p id="description">It's Time to new Thrills | Expericences |  Adventure | Escapes</p>
+  </header>
+    <form id="survey-form">
+      <div class="form-group">
+        <label id="name-label" for="name">Name</label>
+          <input id="name" type="text" name="name" class="blank" placeholder="Enter Your Full Name" required /><br>
+
+        <label id="email-label" for="email">Email</label>
+          <input id="email" type="email" name="email" class="blank" placeholder="Please Enter Your Email" required /><br>
+
+        <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
+          <input id="number" type="number" name="age" min="0" max="100" class="blank" placeholder="Years" /><br>
+
+        <label id="address-label" for="address">Address</label>
+          <input id="address" type="text" name="address" class="blank" placeholder="Current Address" required><br>
+      </div>
+      
+      <div class="form-group">
+        <p>Select the Perfect destination for Youself</p>
+          <select id="dropdown" name="destination" class="blank" required>
+            <option disabled selected value>Select Destination</option>
+            <option>Discover Ladakh</option>
+            <option>Kashmir</option>
+            <option>Himalayan Treks</option>
+            <option>Sikkim</option>
+            <option>Maldives</option>
+            <option>Dubai</option>
+            <option>Europe</option>
+            <option>Sri Lanka</option>
+            <option>Himachal</option>
+            <option>Andaman</option>
+            <option>Uttarakhand</option>
+            <option>Rajsthan</option>
+          </select><br>
+      </div>
+      
+      <div class="form-group">
+        <p>With whom you want to Advanture</p>
+
+          <label for="family"><input id="family" name="with-whom" value="family" type="radio" class="input-radio">Family</label>
+
+          <label for="friends"><input id="friends" name="with-whom" value="friends" type="radio" class="input-radio" checked>Friends</label>
+
+          <label for="solo"><input id="solo" name="with-whom" value="solo" type="radio" class="input-radio">Solo</label>
+      </div>
+      
+      <div class="form-group">
+        <p>Choose Budget (&#8377)</p>
+          <select id="select-budget" name="budget" class="blank" required>
+            <option> < 10K </option>
+            <option selected> 10K - 20K </option>
+            <option> 20K - 30K </option>
+            <option> 30K - 50K </option>
+            <option> 50K - 70K </option>
+            <option> 80K - 100K </option>
+            <option> 100K - 150K </option>
+            <option> 150K < </option>
+          </select><br>
+      </div>
+      <p>What activities You Like to do?<span> (Check all that apply)</span></p>
+      <label><input type="checkbox" name="activity" value="skydiving" class="input-checkbox">Skydiving </label><br>
+      <label><input type="checkbox" name="activity" value="ziplining" class="input-checkbox">Ziplining </label><br>
+      <label><input type="checkbox" name="activity" value="Surfing" class="input-checkbox">Surfing </label><br>
+      <label><input type="checkbox" name="activity" value="rafting" class="input-checkbox">Rafting</label><br>
+      <label><input type="checkbox" name="activity" value="bungyJumping" class="input-checkbox">Bungy Jumping </label><br>
+      <label><input type="checkbox" name="activity" value="offRoading" class="input-checkbox">OFF Roading</label><br>
+      <label><input type="checkbox" name="activity" value="paragliding" class="input-checkbox">Paragliding</label><br>
+      <label><input type="checkbox" name="activity" value="rockClimbing" class="input-checkbox">Rock Climbing</label><br>
+      <label><input type="checkbox" name="activity" value="hiking" class="input-checkbox">hiking </label><br>
+      <label><input type="checkbox" name="activity" value="skiing" class="input-checkbox">Skiing </label><br>
+      <label><input type="checkbox" name="activity" value="scubaDiving" class="input-checkbox">Scuba Diving </label><br>
+      <label><input type="checkbox" name="activity" value="camping" class="input-checkbox">Camping </label><br>
+      <label><input type="checkbox" name="activity" value="hotAirBalloon" class="input-checkbox">Hot Air Balloon</label><br>
+      <p>Any comments or suggestions?</p>
+      <textarea id="comments" class="input-textarea" name="textarea" placeholder="anything else you'd like to share!"></textarea><br>
+      
+      <button id="submit" type="submit" class="submit">Submit</button>
+    </form>              
+</div>
